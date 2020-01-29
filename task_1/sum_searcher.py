@@ -9,4 +9,4 @@ def list_contain_equal_sum(array, result):
         if hash_array.get(i):
             return True
         
-        hash_array[i] = result - i
+        hash_array[result - i] = i
