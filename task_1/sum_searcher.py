@@ -8,5 +8,7 @@ def list_contain_equal_sum(array, result):
     for i in array:
         if hash_array.get(i):
             return True
-        
-        hash_array[result - i] = i
+        else        
+            hash_array[result - i] = i
+            
+    return False
