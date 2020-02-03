@@ -5,10 +5,3 @@ Given an array of integers, find the first missing positive integer in linear ti
 For example, the input [3, 4, -1, 1] should give 2. The input [1, 2, 0] should give 3.
 
 You can modify the input array in-place.
-
-## Solution
-
-Python script that 
-1 - remove all non positive numbers from array
-2 - traverse array and mark presense of element x by making prev elements negative
-3 - return the index + 1 of the first positive value

@@ -10,7 +10,3 @@ def cons(a, b):
     return pair
 
 Implement car and cdr.
-
-## Solution
-
-Simple python script that use lambda functions
